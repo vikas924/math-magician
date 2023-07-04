@@ -65,7 +65,7 @@ Math Magician is linters and intial react app setup.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vikas924.github.io/leaderboard1/dist)
+- [Live Demo Link]([https://vikas924.github.io/math-magician/])
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ You can deploy this project using:
 GitHub Pages
 
 ```sh
-  https://vikas924.github.io/Awesome-books/
+  [https://vikas924.github.io/math-magician/]
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +157,7 @@ GitHub Pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/vikas924/To-do-list/issues) page.
+Feel free to check the [issues](https://github.com/vikas924/math-magician/issues) page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +177,6 @@ I would like to thank Microverse for this exercise.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/vikas924/Leaderboard/blob/1f56509c2defa0acabffb7c26cdafbae5595ec57/LICENSE) licensed.
+This project is [MIT](https://github.com/vikas924/math-magician/blob/99d5608a29575651c0a62af95cf14cd789ce9844/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
