@@ -65,7 +65,7 @@ Math Magician is linters and intial react app setup.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]([https://vikas924.github.io/math-magician/])
+- [Live Demo Link](https://vikas924.github.io/math-magician/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
