@@ -1,6 +1,5 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function CalcUi() {
   return (
@@ -10,46 +9,53 @@ function CalcUi() {
       </div>
       <div className="keypad">
         <div className="rows">
-          <Calcbutton symbol="AC" class="key-silver" />
-          <Calcbutton symbol="+/-" class="key-silver" />
-          <Calcbutton symbol="%" class="key-silver" />
-          <Calcbutton symbol="÷" class="key-orange" />
+          <Calcbutton symbol="AC" buttonclass="key-silver" />
+          <Calcbutton symbol="+/-" buttonclass="key-silver" />
+          <Calcbutton symbol="%" buttonclass="key-silver" />
+          <Calcbutton symbol="÷" buttonclass="key-orange" />
         </div>
         <div className="rows">
-          <Calcbutton symbol="7" class="key-silver" />
-          <Calcbutton symbol="8" class="key-silver" />
-          <Calcbutton symbol="9" class="key-silver" />
-          <Calcbutton symbol="+" class="key-orange" />
+          <Calcbutton symbol="7" buttonclass="key-silver" />
+          <Calcbutton symbol="8" buttonclass="key-silver" />
+          <Calcbutton symbol="9" buttonclass="key-silver" />
+          <Calcbutton symbol="+" buttonclass="key-orange" />
         </div>
         <div className="rows">
-          <Calcbutton symbol="4" class="key-silver" />
-          <Calcbutton symbol="5" class="key-silver" />
-          <Calcbutton symbol="6" class="key-silver" />
-          <Calcbutton symbol="-" class="key-orange" />
+          <Calcbutton symbol="4" buttonclass="key-silver" />
+          <Calcbutton symbol="5" buttonclass="key-silver" />
+          <Calcbutton symbol="6" buttonclass="key-silver" />
+          <Calcbutton symbol="-" buttonclass="key-orange" />
         </div>
         <div className="rows">
-          <Calcbutton symbol="1" class="key-silver" />
-          <Calcbutton symbol="2" class="key-silver" />
-          <Calcbutton symbol="3" class="key-silver" />
-          <Calcbutton symbol="+" class="key-orange" />
+          <Calcbutton symbol="1" buttonclass="key-silver" />
+          <Calcbutton symbol="2" buttonclass="key-silver" />
+          <Calcbutton symbol="3" buttonclass="key-silver" />
+          <Calcbutton symbol="+" buttonclass="key-orange" />
         </div>
         <div className="rowchange">
-          <Calcbutton symbol="0" class="key-silver" />
-          <Calcbutton symbol="." class="key-silver" />
-          <Calcbutton symbol="=" class="key-orange" />
+          <Calcbutton symbol="0" buttonclass="key-silver" />
+          <Calcbutton symbol="." buttonclass="key-silver" />
+          <Calcbutton symbol="=" buttonclass="key-orange" />
         </div>
       </div>
     </>
   );
 }
 
-function Calcbutton(props) {
-  const buttonclass = props.class;
+function Calcbutton({ buttonclass, symbol }) {
   return (
     <>
-      <button type="button" className={buttonclass}>{props.symbol}</button>
+      <button type="button" className={buttonclass}>{symbol}</button>
     </>
   );
 }
+
+Calcbutton.propTypes = {
+  buttonclass: PropTypes.string.isRequired,
+  symbol: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]).isRequired,
+};
 
 export default CalcUi;
