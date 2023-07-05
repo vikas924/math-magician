@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Math Magician setup] <a name="about-project"></a>
+# 📖 [Math Magician Components] <a name="about-project"></a>
 
-Math Magician is linters and intial react app setup.
+Math Magician Components is creating calculator ui design with react components.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,8 +58,8 @@ Math Magician is linters and intial react app setup.
 
 ### Key Features <a name="key-features"></a>
 
-- Add new react app
-- Add linters
+- Add function components
+- use props
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
