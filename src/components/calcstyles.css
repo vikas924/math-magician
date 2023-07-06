@@ -41,7 +41,23 @@
   background-color: rgb(218, 213, 213);
 }
 
+.key-silver:hover {
+  background-color: gray;
+}
+
+.key-silver:active {
+  background-color: rgb(218, 213, 213);
+}
+
 .key-orange {
   border: 1px solid silver;
+  background-color: rgb(255, 136, 0);
+}
+
+.key-orange:hover {
+  background-color: rgb(255, 34, 0);
+}
+
+.key-orange:active {
   background-color: rgb(255, 136, 0);
 }
