@@ -10,7 +10,6 @@ function CalcUi() {
   });
 
   const handleClick = (e) => {
-    // Access the event object (e) here
     const value = e.target.innerHTML;
     setState(calculate(state, value));
   };
