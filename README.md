@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Math Magician Events] <a name="about-project"></a>
+# 📖 [Math Magician quotes] <a name="about-project"></a>
 
-Math Magician Components is about adding funtionality to calculator.
+Math Magician Components is about adding quote function to fetch data from ninja api and show it on page next to calculator.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,8 +58,8 @@ Math Magician Components is about adding funtionality to calculator.
 
 ### Key Features <a name="key-features"></a>
 
-- Add click event
-- use state
+- Add quotes
+- use api
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

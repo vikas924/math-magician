@@ -61,3 +61,8 @@
 .key-orange:active {
   background-color: rgb(255, 136, 0);
 }
+
+.quote {
+  text-align: center;
+  padding-inline: 2rem;
+}
