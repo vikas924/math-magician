@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Math Magician Components] <a name="about-project"></a>
+# 📖 [Math Magician Events] <a name="about-project"></a>
 
-Math Magician Components is creating calculator ui design with react components.
+Math Magician Components is about adding funtionality to calculator.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,8 +58,8 @@ Math Magician Components is creating calculator ui design with react components.
 
 ### Key Features <a name="key-features"></a>
 
-- Add function components
-- use props
+- Add click event
+- use state
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
