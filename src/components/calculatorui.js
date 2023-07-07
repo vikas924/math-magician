@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
+import Calcbutton from './calcbutton';
 
 function CalcUi() {
   const [state, setState] = useState({
@@ -53,22 +53,5 @@ function CalcUi() {
     </>
   );
 }
-
-function Calcbutton({ buttonclass, symbol, funct }) {
-  return (
-    <>
-      <button type="button" onClick={funct} className={buttonclass}>{symbol}</button>
-    </>
-  );
-}
-
-Calcbutton.propTypes = {
-  buttonclass: PropTypes.string.isRequired,
-  symbol: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-  ]).isRequired,
-  funct: PropTypes.func.isRequired,
-};
 
 export default CalcUi;
