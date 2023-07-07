@@ -19,7 +19,6 @@ const Quotes = () => {
         setLoading(false);
         return res;
       } catch (error) {
-        console.log(1);
         setError('opps! something went wrong');
         setLoading(false);
         return error;
