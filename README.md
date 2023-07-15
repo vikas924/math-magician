@@ -65,7 +65,7 @@ Math Magician website is three page website with calculate functionality and quo
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vikas924.github.io/math-magician/)
+- [Live Demo Link](https://cozy-brigadeiros-69cb77.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
