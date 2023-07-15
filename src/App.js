@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="wraper">
       <Routes>
-        <Route path="math-magician" element={<Navbar />}>
+        <Route element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="Calculate" element={<Calculate />} />
           <Route path="Quot" element={<Quot />} />
