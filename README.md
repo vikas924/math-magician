@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Math Magician quotes] <a name="about-project"></a>
+# 📖 [Math Magician full website] <a name="about-project"></a>
 
-Math Magician Components is about adding quote function to fetch data from ninja api and show it on page next to calculator.
+Math Magician website is three page website with calculate functionality and quote page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
